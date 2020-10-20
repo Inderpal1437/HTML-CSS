@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: 'open sans',sans-serif;
+	font-size: 18px;
+	color:whitesmoke;
+	text-align: center;
+	overflow: auto;
+}
+img
+{
+    max-width: 100%;
+}
+#Conatct
+{
+    width: 100%;
+    background-color: violet;
+    height: auto;
+    overflow: hidden;
+    background-color: aquamarine
+}
+#Contact p
+{
+    text-align: right;
+	font-size: 24px;
+	color: black;
+	padding-right: 5%;
+    background-color: blueviolet;
+}
+#Contact p a
+{
+    text-decoration: none;
+	color: blueviolet;
+}
+header
+{
+
+}
+nav ul
+{
+    list-style: none; 
+	margin: 0;
+	padding-left: 50px;
+}
+nav ul li
+{
+    float: left;
+	width: 15%;
+	border: 2px solid #567;
+}
+nav ul li a
+{
+	font-weight: 720;
+	text-decoration:none;
+	color: blueviolet;
+	display: block;
+	padding: 5% 12%;
+}
+nav ul li a:hover, nav ul li.active a
+{
+	background-color: #968;
+	color: #aad968;
+	transition-duration: 700ms;
+}
+.Banner{
+	padding-bottom: 2%;
+}
+.Left-col
+{
+	width: 29%;
+	float: left;
+	padding: 2%;
+}
+h2
+{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color:darkslategray;
+}
+h3
+{
+    color: black;
+}
+ p
+{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.Sidebar{
+	width: 40%;
+	float: right;
+	padding: 2%;
+	transition-duration: 1s;
+}
+.Sidebar:hover{
+	transform: scale(1.10);
+}
+.Right-col
+{
+	width: 29%;
+	float: right;
+	padding: 2%;
+}
+.RSidebar{
+	width: 40%;
+	float: left;
+	padding: 2%;
+	transition-duration: 1s;
+}
+.RSidebar:hover{
+	transform: scale(1.10);
+}
+
+.One-third
+{
+	width: 29%;
+	float: left;
+	padding: 2%;
+	transition-duration: 1s;
+}
+.One-third:hover
+{
+	transform: scale(1.10);
+}
+
+.Clearfix
+{
+    clear: both;
+}
+
+
+
+.wrapper{
+	margin-left: 300px;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 0 7px;
+  overflow: hidden;
+  background: gray;
+  
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  margin: 0 60px;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+
+
+
+.wrapper .button:nth-child(4):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #ff0000;
+}
+
+
+@media (max-width: 768px) 
+{
+	nav ul
+    {
+		padding-left: 0;
+	}
+	nav ul li
+    {
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+	}
+	nav ul li a
+    {
+		padding: 8px 0;
+		font-size: 16px;
+	}
+	.Left-col
+    {
+		width: 80%;
+		padding: 0 40px;
+		text-align: justify;
+	}
+	.sidebar
+    {
+		width: 100%;
+		padding: 0;
+	}
+    .Right-col
+    {
+		width: 80%;
+		padding: 0 40px;
+		text-align: justify;
+	}
+	.RSidebar
+    {
+		width: 100%;
+		padding: 0;
+	}
+	.One-third{
+        
+		width: 100%;
+		padding: 0;
+	}
+	.One-third p
+    {
+		padding:0 50px;
+		text-align: justify;
+	}
+	.wrapper
+    {
+		margin-left: 20px;
+	}
+	.wrapper .button{
+		width: 10%;
+		
+	}
+	.wrapper .button:hover
+    {
+  width: 120px;
+}
+	
+}
